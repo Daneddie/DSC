@@ -1,0 +1,21 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+#bg_salsa {
+    background: url(./assets/images/bg_salsa.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#bg_salsa.h1 {
+    font-size: xx-large;
+}
+
+#threedivs {
+    align-items: center;
+    justify-content: center;
+}
