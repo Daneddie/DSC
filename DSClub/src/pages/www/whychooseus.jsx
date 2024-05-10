@@ -1,3 +1,8 @@
+
+// I dont know what the matter is, but the same way I imported the Logo and it worked, I tried implementing the 
+// other images I wanted in the project but ehy keep generating errors. So Imarked them as comments. When I remove
+// the comment marks on them, the site stop working. Kindly help me resolve. Thanks.
+
 import { dscLogo } from "../../assets/assets";
 // import { teachers } from "../../assets/assets";
 // import { students } from "../../assets/assets";
