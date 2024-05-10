@@ -1,7 +1,7 @@
 import { dscLogo } from "../../assets/assets";
-import { teachers } from "../../assets/assets";
-import { students } from "../../assets/assets";
-import { tourists } from "../../assets/assets";
+// import { teachers } from "../../assets/assets";
+// import { students } from "../../assets/assets";
+// import { tourist } from "../../assets/assets";
 
 
 export default function WhyChooseUsSection() {
@@ -16,28 +16,28 @@ export default function WhyChooseUsSection() {
             <div id="threedivs" className="  bg-slate-600 rounded-lg flex flex-col gap-3 align-middle w-[50%]">
 
                     <div className=" bg-yellow-200 rounded-lg w-[60%] p-8 mt-10">
-                        {/* <div>
-                            <img src={students} alt="student" className="w-[30px] md:w-[90px]"></img>
-                        </div> */}
+                        <div>
+                            {/* <img src="../assets/images/student.jpeg" alt="student" className="w-[30px] md:w-[90px]"></img> */}
+                        </div>
                         <h1 className=" font-semibold font-inknut text-red-700">For Students</h1>
                         <p>Learn the language and speak like an indigene. Learning and speaking Spanish has never been easier. With this workbook, it will just be a breeze.</p>
                     </div>
 
-                    {/* <div className=" bg-yellow-200 rounded-lg w-[60%] p-8">
-                        <div>
+                    <div className=" bg-yellow-200 rounded-lg w-[60%] p-8">
+                        {/* <div>
                             <img src={teachers} alt="teacher" className="w-[30px] md:w-[90px]"></img>
-                        </div>
+                        </div> */}
                         <h2 className=" font-semibold font-inknut text-red-700"> For Teachers</h2>
                         <p>This will simplify your teaching work. Your students will assimilate the language with speed.</p>
-                    </div> */}
+                    </div>
 
-                    {/* <div className=" bg-yellow-200 rounded-lg w-[60%] p-8 mb-10">
-                    <div>
-                            <img src={tourists} alt="tourist" className="w-[30px] md:w-[90px]"></img>
-                        </div>
+                    <div className=" bg-yellow-200 rounded-lg w-[60%] p-8 mb-10">
+                    {/* <div>
+                            <img src={tourist} alt="tourist" className="w-[30px] md:w-[90px]"></img>
+                        </div> */}
                         <h1 className=" font-semibold font-inknut text-red-700">For Tourists</h1>
                         <p>This is every tourist's dream-come-true. You will be immersed in the rich spanish culture like you were physically in Spain!</p>
-                    </div> */}
+                    </div>
             </div>
         
             <div>

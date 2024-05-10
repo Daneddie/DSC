@@ -3,6 +3,7 @@ import IndexPage from "./pages/www";
 import AppPage from "./pages/app";
 import HeaderComponent from "./pages/www/header";
 import FooterComponent from "./pages/www/footer";
+import FormsIndex from "./pages/forms";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<IndexPage />}></Route>
                 <Route path="/app" element={<AppPage />}></Route>
+                <Route path="/form" element={<FormsIndex />}></Route>
             </Routes>
 
         </main>
